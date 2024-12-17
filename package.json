@@ -5,7 +5,9 @@
   "type": "module",
   "author": "Manuel Frohn",
   "license": "ISC",
-  "scripts": {},
+  "scripts": {
+    "watch": "rollup ./src/index.ts --config --watch"
+  },
   "devDependencies": {
     "@eslint/js": "9.14.0",
     "@types/lodash": "^4.17.13",
